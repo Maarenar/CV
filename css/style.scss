@@ -1,0 +1,117 @@
+/*------------------------------------------------------------------------------------------
+                                            GENERAL
+------------------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&display=swap');
+
+body{
+    background-color: black; /* rgba(206, 201, 201, 0.4)*/
+    font-family: 'Roboto Slab';
+    color: #6849ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-size: 2m;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+h3{
+	font-size: 1em;
+}
+
+p{
+	font-size: 0.8em;
+}
+
+a{
+    text-decoration: none;
+    color: #6849ff;
+}
+
+
+
+/*------------------------------------------------------------------------------------------
+                                            HEADER
+------------------------------------------------------------------------------------------*/
+header{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    img{
+        max-width: 70px;
+    }
+    nav{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 0 20px 0;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white ;
+        a{
+            padding: 5px 10px 5px 10px;
+            &:hover{
+                background-color: white;
+            }
+        }
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------
+                                        DETAILS
+------------------------------------------------------------------------------------------*/
+#details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    img{
+        height: 200px; 
+        margin-top: 50px;
+    }
+}
+
+#name_job{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/*------------------------------------------------------------------------------------------
+                                        PROFILE
+------------------------------------------------------------------------------------------*/
+#profile{
+    width: 80%;
+}
+
+/*------------------------------------------------------------------------------------------
+                                        TIMELINE
+------------------------------------------------------------------------------------------*/
+#timeline{
+    
+}
+
+i{
+    color: #6849ff ;
+}
