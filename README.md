@@ -1,3 +1,3 @@
 # CV
 
-Trying another version of my resume
+Trying another version for my resume
